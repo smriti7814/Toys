@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="styletoy.css" class="rel">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css" rel="stylesheet" />
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.js"></script>
+    <title>Toy's Showroom</title>
+  </head>
+  <body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="ham.jpg" style="width: 80px;">
+          </a>
+         
+        <input class=" col-md-8 p-3" type="search" placeholder="       Search..." id="search1" >
+          
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Deals & promotion</a>
+                <div class="dropdown-menu">
+                  <div class="d-flex flex-wrap" id="div">          
+                      <div><img src="one.jpg" style="width:200px; height:150px;"></div>
+                    <div><img src="two.jpg"style="width:200px; height:150px;" ></div>
+                      <div><img src="three.jpg"style="width:200px; height:150px;" ></div>
+                      <div><img src="four.jpg" style="width:200px; height:150px;"></div>
+                      <div><img src="five.jpg"style="width:200px; height:150px;" ></div>
+                      <div><img src="six.jpg"style="width:200px; height:150px;" ></div> 
+                      
+                  </div>
+                 </div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Age</a>
+                <div class="dropdown-menu">
+                  <div class="d-flex flex-wrap" id="di">          
+                      <div><img src="teddy.jpg" style="width:200px; height:150px;"></div>
+                    <div><img src="teddy.jpg"style="width:200px; height:150px;" ></div>
+                      <div><img src="teddy.jpg"style="width:200px; height:150px;" ></div>
+                      <div><img src="teddy.jpg" style="width:200px; height:150px;"></div>
+                      <div><img src="teddy.jpg"style="width:200px; height:150px;" ></div>
+                      <div><img src="teddy.jpg"style="width:200px; height:150px;" ></div> 
+                  </div>
+                 </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <div class="dropdown-menu">
+                  <div class="d-flex flex-wrap" id="d">          
+                    <div><img src="brand.jpg" style="width:200px; height:150px;"></div>
+                  <div><img src="brand1.jpg"style="width:200px; height:150px;" ></div>
+                    <div><img src="brand2.jpg"style="width:200px; height:150px;" ></div>
+                    <div><img src="brand3.png" style="width:200px; height:150px;"></div> 
+                </div>
+               </div>
+               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Brand</a>
+                <div class="dropdown-menu">
+                  <div class="d-flex flex-wrap" id="dj">          
+                    <div><img src="bar.jpg" style="width:200px; height:150px;">
+                     <p style="text-align: center;">Doll one</p>
+                    </div>
+                  <div><img src="bar1.jpg"style="width:200px; height:150px;" >
+                    <p style="text-align: center;">Doll two</p>
+                  </div>
+                    <div><img src="bar2.jpg"style="width:200px; height:150px;" >
+                      <p style="text-align: center;">Doll three</p>
+                      </div>
+                    <div><img src="bar3.jpg" style="width:200px; height:150px;">
+                      <p style="text-align: center;">doll four</p>
+                      </div> 
+                </div>
+               </div>
+               </li>
+      <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Characters</a>
+              <div class="dropdown-menu">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+              </button>
+              <ul class="dropdown-menu bg-white" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+        </li>
+              <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="       Search..." aria-label="Search" id="search"> 
+                </form>
+                </ul>
+              
+         
+            <div class="navbar-nav" >
+              <a href="#" class="nav-item nav-link text-white" >
+              <img src="https://th.bing.com/th/id/OIP.OddLOv9VLBiBD-ii8LBbHwHaHp?pid=ImgDet&rs=1" class="img-fluid" alt="Responsive image" style="height: 30px; width: 30px;">
+              Track order
+              </a>
+              <a href="#" class="nav-item nav-link text-white">
+               <img src=" https://cdn3.vectorstock.com/i/1000x1000/75/82/red-heart-symbol-vector-1597582.jpg" class="img-fluid" alt="Responsive-image" style="height:30px;width: 30px;">Whislist
+              </a> 
+              <a href="#" class="nav-item nav-link text-white">
+              <img src="https://th.bing.com/th/id/OIP.J5reziWO6rf6rXqcP_e8wgHaH_?pid=ImgDet&rs=1" class="img-fluid" alt="Responsive-image" style="height:30px;width: 30px;">
+              Login
+              </a>
+              <a href="#" class="nav-item nav-link text-white">
+                  <img src="https://th.bing.com/th/id/OIP.MNTIikGVts2NnI9_ZKfAzwHaH7?pid=ImgDet&rs=1" class="img-fluid" alt="Responsive-image" style="height:30px;width:30px;">
+              My bag
+              </a>
+          </div>
+          </div>
+        </div>
+      </nav>
+      <!--navbar end -->
+
+     <!--second container part-->
+     <div class="container-fluid">
+          <div class="row pt-5 pb-5 justify-content-evenly" style="background-color: antiquewhite;">
+              <div class="col-md-3">
+                <h5 class="mt-3">Filter Toys 
+                  <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo"><i class="bi bi-file-plus"></i></button>
+                  <div id="demo" class="collapse show">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                  </h5>
+                <div class="progress" style="height:5px;">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;height:5px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+  
+                  <h5 class="mt-3">Age</h5>
+                  <div class="progress" style="height:10px;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;height:5px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                  <h5 class="mt-3">Category</h5>
+                  <div class="progress" style="height:10px;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;height: 5px;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                  <h5 class="mt-3">Price</h5>
+                  <div class="progress" style="height:10px;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;height:5px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  
+                  <h5 class="mt-3">Characters</h5>
+                  <div class="progress" style="height:10px;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;height:5px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            </div>
+            
+              <div class="col-md-7">
+                 <p style="font-size: 30px;"><b>limited deals offer</b></p>
+                 <div class="row bg-danger pt-2 text-white" style="border:1px solid white; border-radius: 50px;">
+                    <div class="col-6">
+                           <p style="text-align:left; font-size: 20px;">3306</p>
+                          </div>
+                    <div class="col-6">
+                      <p style="text-align:right;font-size: 20px;">Lelo Toys:Popularity</p>
+                    </div>
+                 </div>
+               
+                 <div class="row justify-content-evenly pt-5">
+                  <div class="col-md-3">
+                    <img src="game.jpg" class="img-fluid" style="width: 450px; height: 150px;">
+                    <p><b>Mirada 35 cm bunny soft toy Multicolor 3Y+</b></p>
+                    <p> ₹ 809 SAVE 10%</p>
+                   </div>
+                   <div class="col-md-3">
+                    <img src="game.jpg" class="img-fluid" style="width: 450px; height: 150px;">
+                    <p><b>Mirada 35 cm bunny soft toy Multicolor 3Y+</b></p>
+                    <p> ₹ 809 SAVE 10%</p>
+                   </div>
+                   <div class="col-md-3">
+                    <img src="game.jpg" class="img-fluid" style="width: 450px; height: 150px;">
+                    <p><b>Mirada 35 cm bunny soft toy Multicolor 3Y+</b></p>
+                   <p>₹ 809 SAVE 10%</p>
+                   </div>
+               </div>
+                <div class="row justify-content-evenly pt-5">
+                  <div class="col-md-3">
+                    <img src="game.jpg" class="img-fluid" style="width: 450px; height: 150px;">
+                    <p><b>Mirada 35 cm bunny soft toy Multicolor 3Y+</b></p>
+                    <p> ₹ 809 SAVE 10%</p>
+                   </div>
+                   <div class="col-md-3">
+                    <img src="game.jpg" class="img-fluid" style="width: 450px; height: 150px;">
+                    <p><b>Mirada 35 cm bunny soft toy Multicolor 3Y+</b></p>
+                    <p> ₹ 809 SAVE 10%</p>
+                   </div>
+                   <div class="col-md-3">
+                    <img src="game.jpg" class="img-fluid" style="width: 450px; height: 150px;">
+                    <p><b>Mirada 35 cm bunny soft toy Multicolor 3Y+</b></p>
+                   <p>₹ 809 SAVE 10%</p>
+                   </div>
+               </div>
+               <div class="row justify-content-evenly pt-5">
+                <div class="col-md-3">
+                  <img src="game.jpg" class="img-fluid" style="width: 450px; height: 150px;">
+                  <p><b>Mirada 35 cm bunny soft toy Multicolor 3Y+</b></p>
+                  <p> ₹ 809 SAVE 10%</p>
+                 </div>
+                 <div class="col-md-3">
+                  <img src="game.jpg" class="img-fluid" style="width: 450px; height: 150px;">
+                  <p><b>Mirada 35 cm bunny soft toy Multicolor 3Y+</b></p>
+                  <p> ₹ 809 SAVE 10%</p>
+                 </div>
+                 <div class="col-md-3">
+                  <img src="game.jpg" class="img-fluid" style="width: 450px; height: 150px;">
+                  <p><b>Mirada 35 cm bunny soft toy Multicolor 3Y+</b></p>
+                 <p>₹ 809 SAVE 10%</p>
+                 </div>
+             </div>
+              </div>
+          </div>
+          </div>
+        <!--new third part-->
+               <div class="container-fluid" >
+                <div class="row pt-5 pb-5">
+                  <div class="col-sm-12">
+                    <div class="carousel" id="sam">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">
+                      <img src="bar.jpg" class="img-fluid">  
+                      </div>
+                      <div class="slider"></div>
+                  </div>
+                </div>
+               </div>
+        <!--ends-->
+    </div>
+    <!--fourth part-->
+      <div class="container-fluid">
+        <div class="row pt-5 pb-3 justify-content-evenly" style="background-color: antiquewhite; margin-top: 400px;">
+          <div class="col-md-2">
+           <h3>Most loved categories</h3>
+           <p>toys</p>
+           <p>books</p>
+           <p>sports</p>
+           <p>fashion</p>
+           <p>riders</p>
+         </div>
+         <div class="col-md-2">
+          <h3>Most loved categories</h3>
+          <p>toys</p>
+           <p>books</p>
+           <p>sports</p>
+           <p>fashion</p>
+           <p>riders</p>
+        </div>
+        <div class="col-md-2">
+          <h3>Most loved categories</h3>
+          <p>toys</p>
+           <p>books</p>
+           <p>sports</p>
+           <p>fashion</p>
+           <p>riders</p>
+        </div>
+        <div class="col-md-2">
+          <h3>Most loved categories</h3>
+          <p>toys</p>
+           <p>books</p>
+           <p>sports</p>
+           <p>fashion</p>
+           <p>riders</p>
+        </div>
+        <div class="col-md-2">
+          <h3>Newsletter</h3>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="your email address" aria-label="your email address" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon2"><i class="bi bi-fast-forward-circle-fill"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 px-5 pb-5" style="text-align: left;">
+          <div class="col-md-1">
+          <p>Terms and conditions</p>
+          </div>
+          <div class="col-md-1">
+            <p>Delivery policy</p>
+          </div>
+          <div class="col-md-1">
+            <p>Refund policy</p>
+          </div>
+          <div class="col-md-1">
+            <p>Fee policy</p>
+          </div>
+          <div class="col-md-1">
+            <p>Sale terms </p>
+          </div>
+          <div class="col-md-1">
+            <p> brand conditions</p>
+          </div>
+          <div class="col-md-1">
+            <i class="bi bi-facebook"></i>
+          </div>
+          <div class="col-md-1">
+            <i class="bi bi-twitter"></i>
+          </div>
+          <div class="col-md-1">
+            <i class="bi bi-whatsapp"></i>
+          </div>
+          <div class="col-md-1">
+            <i class="bi bi-camera-video-off"></i>
+          </div>
+        </div>
+        </div>
+      </div>
+    <!--ends-->
+     <!--end-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+    <script type="text/javascript">
+    $(function() {
+  var $carousel = $(".carousel");
+  var $slider;
+
+  $carousel.slick({
+    speed: 300,
+    height: 200,
+    arrows: false,
+    slidesToShow: 5,
+    slidesPerRow:1,
+  }).on('afterChange', (e, slick, slide) => {
+    $slider.slider('value', slide);
+  });
+
+  $slider = $(".slider").slider({
+    min: 0,
+    max: 4,
+    slide: function(event, ui) {
+      var slick = $carousel.slick("getSlick");
+      goTo = ui.value * (slick.slideCount - 1) / 4;
+      $carousel.slick("goTo", goTo);
+    }
+  });
+});
+</script>  
+  </body>
+</html>
+<script>
+  $(document).ready(function(){
+    $("#search").focusin(function(){
+      $(".searchme").hide();
+    })
+     $("#search").focusout(function(){
+      $(".searchme").show();
+     })
+  })
+   
+  $(document).ready(function() {
+  $(window).resize(function()
+  {
+    
+    if(this.innerWidth<1000)
+    {
+    
+      $("#search").css({"display":"none"});
+    }
+    else
+    {
+      $("#search").css({"display":"block"});
+    }
+  });
+});
+$(window).resize(function()
+{
+   if(this.innerWidth<1000)
+   {
+    $("#search1").css({"display":"block"});
+   }
+   else
+   {
+    $("#search1").css({"display":"none"});
+   }
+  });
+$(window).resize(function()
+{
+  if(this.innerWidth>1000)
+  {
+    $("#div").css({"display":"flex","flex":"nowrap","width":"700px","justify-content":"center"});
+  }
+  else{
+    $("#div").css({"width":"400px"});
+  }
+});
+$(window).resize(function()
+{
+  if(this.innerWidth>1000)
+  {
+    $("#di").css({"display":"flex","flex":"nowrap","width":"600px","justify-content":"center"});
+  }
+  else{
+    $("#di").css({"width":"400px"});
+  }
+});
+$(window).resize(function()
+{
+  if(this.innerWidth>1000)
+  {
+    $("#d").css({"display":"flex","flex":"nowrap","width":"700px","justify-content":"center"});
+  }
+  else{
+    $("#d").css({"width":"400px"});
+  }
+});
+$(window).resize(function()
+{
+  if(this.innerWidth>1000)
+  {
+    $("#dj").css({"display":"flex","flex":"nowrap","width":"600px","justify-content":"center"});
+  }
+  else{
+    $("#dj").css({"width":"400px"});
+  }
+});
+$(window).resize(function()
+{
+  if(this.innerWidth>1490)
+  {
+    $("#sam").css({"width":"90%"});
+  }
+  else{
+    $("#sam").css({"width":"500px","slidesToShow":"1"});
+  }
+});
+</script>

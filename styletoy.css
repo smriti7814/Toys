@@ -1,0 +1,86 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255)!important;
+    font-size: 15px;
+}
+#search{
+    background-color:whitesmoke;
+    color: black;
+    border: 0px;
+    border-radius: 20px;
+    width: auto;
+}
+#search::placeholder{
+    color: black;
+    
+}
+
+#new{
+    display: inline-block;
+}
+#search1{
+    background-color:whitesmoke;
+    color: black;
+    border: 0px;
+    border-radius: 20px;
+   
+}
+#search1::placeholder{
+    color: black;
+    
+}
+.dropdown-menu {
+   background-color: white;
+   border: none;
+}
+.form-range{
+    width: 50%;
+    margin-left: 300px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    display: none;
+}
+.slider {
+width: 500px;
+background: black;
+position: relative;
+left: 500px;
+top: 400px;
+}
+
+.slider .ui-slider-handle {
+display: block;
+width: 50px;
+height: 30px;
+margin-left: -20px;
+background: red;
+cursor: pointer;
+position: relative;
+}
+
+.carousel {
+width: 1350px;
+height: 50px;
+margin-left: -300px;
+position: relative;
+left: 300px;
+}
+
+.carousel .slick-slide {
+height: 400px;
+border: 2px solid black;
+margin: 20px;
+}
+
+.carousel img {
+width: 400px;
+}
+.slick-list {
+    background-color: red;
+    width: 110%;
+}
+.btn-primary {
+    color: #fff;
+   background-color: black;
+    border-color: black;
+    margin-left: 150px;
+}
